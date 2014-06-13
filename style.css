@@ -39,17 +39,25 @@ strong {
 	line-height: 0;
 }
 /* CLASSES */
-.about-banner {
-	background-image: url("images/about-rainbow.jpg");
+.banner {
 	background-position: top left;
 	background-size: cover;
 	min-height: 8em;
 }
+.about-banner {
+	background-image: url("images/about-rainbow.jpg");
+}
 .blog-banner {
 	background-image: url("images/blog-rainbow.jpg");
-	background-position: top left;
-	background-size: cover;
-	min-height: 8em;
+}
+.blog-image {
+	border: 1px solid #ccc;
+	box-shadow: 1px 1px 4px #ccc;
+	display: table;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	max-width: 500px;
+	width: 100%;
 }
 .blog-page {
 	color: #000;
@@ -112,9 +120,6 @@ strong {
 }
 .portfolio-banner {
 	background-image: url("images/portfolio-rainbow.jpg");
-	background-position: top left;
-	background-size: cover;
-	min-height: 8em;
 }
 .post-content {
 	line-height: 1.6em;
@@ -138,8 +143,7 @@ strong {
 	max-width: 700px;
 	width: 100%;
 }
-.post-image,
-.blog-image {
+.post-image {
 	border: 1px solid #ccc;
 	box-shadow: 1px 1px 4px #ccc;
 	display: table;
@@ -147,6 +151,9 @@ strong {
 	margin-bottom: 20px;
 	max-width: 700px;
 	width: 100%;
+}
+.post-script {
+	font-size: .8em;
 }
 .profile-image {
 	display: block;
