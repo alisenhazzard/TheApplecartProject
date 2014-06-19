@@ -1,3 +1,7 @@
+* {
+	letter-spacing: 1px;
+}
+
 body {
 	background-color: #FFFFF5;
 	font-family: 'Crimson Text', serif;
@@ -110,6 +114,9 @@ strong {
 	background-position: center;
 	background-size: cover;
 	min-height: 8em;
+}
+.new-post {
+	margin-bottom: 8%;
 }
 .new-post,
 .new-post2 {
