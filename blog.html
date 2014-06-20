@@ -45,6 +45,30 @@
 <!-- PAGE CONTENT -->
 	<h1 class="blog-page">Blog</h1>
 
+	<!-- Sticky Footer -->
+	<div class="new-post" id="sticky-footer">
+		<h2>Sticky Footer</h2>
+		<h3>Web Design</h3>
+		<h3 class="date">June 20, 2014</h3>
+		<p class="post-content">When I start making a website, the first problem I run into is creating a sticky footer. All I want is for my footer to stay at the bottom of the page, right from the get-go, so I don’t have to worry about it while I structure the rest of the page. (Is that so much to ask?)</p>
+		<br/>
+		<p class="post-content">There are a few different ways to get your footer to stay put. This is a bare-bones, no-fuss way to get your very own Sticky Footer.</p>
+		<br/>
+		<img src="images/footer2.gif" class="blog-image">
+		<br/>
+		<img src="images/footer3.gif" class="blog-image">
+		<ol class="post-content">
+			<li>Give html and body a height of 100%.</li>
+			<li>Wrap your content in a div with a class of “content-wrapper” (or anything you want) and give the class a min-height: 100%, and margin-bottom: -130px (or however tall you want your footer to be).</li>
+			<li>Give your footer a height of 130px (the positive value  of your “content-wrapper” margin-bottom).</li>
+			<li>Use the universal selector * to set all margins to 0. This will get rid of the whitespace around your elements and divs, bringing your content to the edges of the window.</li>
+		<br/>
+		<img src="images/footer1.gif" class="blog-image">
+		<br/>
+		<p class="post-content">What are your feelings on the sticky footer? If you’ve got any other great ways to keep it in place, let me know. 
+		<a href="http://twitter.com/alisen_hazzard" target="blank">@alisen_hazzard</a> Happy Friday!</p>
+	</div>
+
 	<!-- Painting on Photos -->
 	<div class="new-post" id="painting">
 		<h2>Painting on Photos</h2>
@@ -80,17 +104,17 @@
 		<p class="post-content">Duplicate the layer twice (Command J). On the second layer select all (Command A), and go to Edit > Transform > Skew. Give the layer a horizontal skew of -45. Then go to Filter > Pixelate > Mosaic and select a pixel size. Next, go back to Skew and give the layer a horizontal skew of 45. Here's what you get.</p>
 		<br/>
 		<img src="images/pixel3.jpg" class="blog-image">
-		<p class="post-content">Repeat these steps on the top layer, but start with 45 degrees and end with -45 degrees. It will be hiding the bottom layer, so set the layer style to Screen. You can also adjust the opacity. Here is what the screen layer looks like, with the middle layer visibilty hidden.</p>
+		<p class="post-content">Repeat these steps on the top layer, but start with 45 degrees and end with -45 degrees. It will be hiding the bottom layer, so set the layer style to Screen. You can also adjust the opacity. Here is what the screen layer looks like, with the middle layer visabilty hidden.</p>
 		<br/>
 		<img src="images/pixel2.jpg" class="blog-image">
-		<p class="post-content">Turn on the visibilty for all three layers, and you have your end result. The layers will be slightly off-center from one another, so use the Move Tool (V) to shift one layer until they line up.</p>
+		<p class="post-content">Turn on the visabilty for all three layers, and you have your end result. The layers will be slightly off-center from one another, so use the Move Tool (V) to shift one layer until they line up.</p>
 		<br/>
 		<img src="images/pixel4.jpg" class="blog-image">
 		<p class="post-content">What are some of your favorite quick photo manipulations in Photoshop?
 		<br/>
 		<a href="http://twitter.com/alisen_hazzard" target="blank">@alisen_hazzard</a></p>
 		<br/>
-		<p class="post-content post-script">Check out the original tutorial for creating a pixel manipulationg <a href="http://www.photoshoptutorials.ws/photoshop-tutorials/special-effects/quick-tip-create-triangle-pixelation-effect-photoshop/" target="blank">here</a>!</p>
+		<p class="post-content post-script">Check out the original tutorial for creating a pixel manipulating <a href="http://www.photoshoptutorials.ws/photoshop-tutorials/special-effects/quick-tip-create-triangle-pixelation-effect-photoshop/" target="blank">here</a>!</p>
 	</div>
 
 	<!-- Illustrator Templates for Tracing -->
@@ -134,8 +158,8 @@
 				<li>Memorize basic <strong>keyboard shortcuts</strong>. Many of them are easy to learn (they become visible when you hover over the tools), and it will speed up your projects.
 				<li>If you hand-draw an image that you want to convert to a digital file, you can make the layer a <strong>Template</strong> and use it as a <a href="#ill-template">tracing guide</a>.
 				<li>Use Shift-E and Shift-B to quickly <strong>switch between the Blog Brush and Eraser</strong> when drawing. (I'm telling you, those keyboard shortcuts...)
-				<li>The <strong>Swatch Tool</strong> contains preset color pallettes for a variety of projects, including Kid's Stuff, Earthtones, and Skintones. If you need a little inspiration for a color theme, this is a fun place to look.
-				<li>Instead of filling an object with a color, you can make your own <strong>custom pattern</strong>, adjusting the size and layout in lots of fun ways.
+				<li>The <strong>Swatch Tool</strong> contains preset color palettes for a variety of projects, including Kid's Stuff, Earth-tones, and Skin-tones. If you need a little inspiration for a color theme, this is a fun place to look.
+				<li>Instead of filling an object with a color, you can make your own <strong> custom pattern</strong>, adjusting the size and layout in lots of fun ways.
 			</ol>
 		</p>
 		<br/>
@@ -167,6 +191,18 @@
 <!-- FOOTER -->
 <footer>Find me on Twitter at <a href="http://twitter.com/alisen_hazzard" target="blank">@alisen_hazzard</a> or send an <a href="mailto:hello.applecart@gmail.com">email</a>.</footer>
 
-</body>
 
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-52117051-1', 'theapplecartproject.com');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
 </html>
