@@ -3,7 +3,6 @@
 }
 
 body {
-	background-color: #FFFFF5;
 	font-family: 'Crimson Text', serif;
 	height: 100%;
 	margin: 0;
@@ -24,7 +23,7 @@ footer a {
 h1,
 h2,
 h3 {
-	font-family: 'Muli', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 h2 {
 	text-align: left;
@@ -88,7 +87,7 @@ strong {
 	font-size: 16px;
 }
 .display-mobile {
-	color: #FFFFF5;
+	color: #FFF;
 	display: block;
 	margin-right: 15px;
 	padding-top: 10px;
@@ -102,7 +101,7 @@ strong {
 .main-title, 
 .page-title {
 	text-shadow: 1px 2px 1px #000;
-	color: #FFFFF5;
+	color: #FFF;
 	font-size: 1.5em;
 	margin-bottom: 0;
 	margin-top: 0;
@@ -114,9 +113,6 @@ strong {
 	background-position: center;
 	background-size: cover;
 	min-height: 8em;
-}
-.new-post {
-	margin-bottom: 8%;
 }
 .new-post,
 .new-post2 {
@@ -178,7 +174,7 @@ strong {
 	margin-top: 10px;
 }
 .site-nav a {
-	color: #fffff5;
+	color: #FFF;
 	font-size: 20px;
 	letter-spacing: 1px;
 	margin: 0 2px;
@@ -188,7 +184,7 @@ strong {
 }
 .tagline,
 .page-tagline {
-	color: #fffff5;
+	color: #FFF;
 	font-size: 20px;
 	letter-spacing: 1px;
 	padding-left: 25px;
@@ -226,15 +222,3 @@ form {
     background-color:#fafafa;
     color:#207cca;
 }
-
-
-
-
-
-
-
-
-
-
-
-

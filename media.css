@@ -1,4 +1,4 @@
-@media (min-width: 650px){
+@media screen and (min-width: 650px){
 	h2,
 	h3 {
 		text-align: center;
@@ -45,7 +45,7 @@
 	}
 }
 
-@media (min-width: 960px) {
+@media screen and (min-width: 960px) {
 	/*CLASSES */
 	.home-banner {
 		min-height: 22em;
@@ -55,25 +55,3 @@
 		padding-top: 80px;
 	}
 }
-
-@media (min-width: 1123px) {
-	/* CLASSES */
-	.post-image {
-		float:left;
-	}
-	.post-desc {
-		float: left;
-		margin-left: 20px;
-		min-width: 370px;
-		width: 34%;
-	}
-}
-
-
-
-
-
-
-
-
-
